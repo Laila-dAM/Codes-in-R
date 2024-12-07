@@ -42,3 +42,17 @@ Changes to be committed:
       new file:   <file_name>
 git add .
 git push origin master
+git status
+git add .
+git commit -m "Atualização / Limpeza"
+git config --global user.name "Laila Mota"
+git config --global user.email "lailamota.238@gmail.com"
+git commit -m "Atualização / Limpeza"
+git push origin master
+git push -u origin master
+git remote add origin https://github.com/Laila-dAM/backup-linux.git
+git push -u origin master
+git config --global credential.helper store
+git push -u origin master
+git remote set-url origin https://<TOKEN>@github.com/Laila-dAM/backup-linux.git
+git push -u origin master
