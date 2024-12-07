@@ -56,3 +56,12 @@ git config --global credential.helper store
 git push -u origin master
 git remote set-url origin https://<TOKEN>@github.com/Laila-dAM/backup-linux.git
 git push -u origin master
+git add .
+git commit -m "Limpeza"
+git push origin branch
+git push origin branch
+git push origin master
+git push origin master
+git config --global credential.helper cache
+git config --global credential.helper store
+git push origin master
