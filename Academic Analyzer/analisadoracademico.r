@@ -7,3 +7,4 @@ ifelse(grades >= 6, "Good",
 ifelse(grades >= 4, "Regular", "Insufficient"))) 
 report <- data.frame(Student = 1:length(grades), Grade = grades, Rating = rating) 
 hist(grades, main = "Grade Distribution", xlab = "Grades", col = "lightblue", border = "black") 
+list(Class_Average = class_average, Students_Above_Average = above_average, Report = report)
